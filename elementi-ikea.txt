@@ -1,0 +1,19 @@
+
+30346934 - Elemento angolare supplem/4 ripiani
+90246352 - Cassetto, bianco
+80262489 - Appenditutto estraibile
+00257302 - Cestello in rete
+10246308 - Cassetto, bianco
+30023321 - Anta, vetro a specchio
+30214504 - Cerniera per chiusura ammortizzata
+30256891 - Bastone appendiabiti
+30434964 - Anta, effetto rovere con mordente bianco
+50214560 - Struttura per guardaroba
+50323597 - Maniglia, color acciaio inox
+50368492 - Cerniera chiusura morbida elem ang
+60246396 - Divisorio per strutture
+60263244 - Binario estraibile per cestelli
+70246386 - Ripiano estraibile, bianco
+70277957 - Ripiano, bianco
+
+ikea-availability.cmd -- stock --store=Milan 30346934 90246352 80262489 00257302 10246308 30023321 30214504 30256891 30434964 50214560 50323597 50368492 60246396 60263244 70246386 70277957
