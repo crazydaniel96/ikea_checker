@@ -74,9 +74,6 @@ function plot_table(){
             else
                 row+= "S: " + items[i].stock[j] + " ".repeat(spaces[j+1] - items[i].stock[j].toString().length) + " RS: " + items[i].restock[j] +" ".repeat(10 - items[i].restock[j].length) + " | ";
         }
-        //for (let j=0; j< items[i].restock.length; j++)
-        //    row+= items[i].restock[j]+" ".repeat(10 - items[i].restock[j].length) + " | ";
-
 
         console.log(row);
     }
@@ -89,33 +86,3 @@ function check_red_line(index){
             return false;
     return true;
 }
-
-/*
-(async function() {
-    const result = await checker.availability("233", "30346934");
-    console.log(result);
-})();
-
-
-(async function() {
-    for (let tmp in variable){
-        Row=variable[tmp] + ' - ' + names[tmp];
-        Row+= " ".repeat(61-Row.length);
-        for (let tmp2 in stores){
-            const result = await checker.availability(stores[tmp2], variable[tmp]);
-            if (result.stock==0){
-                Row += '\x1b[31m0\x1b[0m';
-                restock+="\n" + variable[tmp] + ' - ' + names[tmp] + " ".repeat(5);
-                (stores[tmp2]==233) ? restock+="Carugate":restock+="San Giuliano"; 
-                restock+= " - " + result.restockDate.toISOString().split('T')[0];
-            }
-            else
-                Row += result.stock ;
-            Row+= " ".repeat(12-result.stock.toString().length);
-        }
-    console.log(Row);
-    }
-    console.log("\nRe-stock:" + restock);
-})();
-
-*/
