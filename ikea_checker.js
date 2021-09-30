@@ -77,6 +77,7 @@ function plot_table(){
 
         console.log(row);
     }
+    console.log("\n** S = stock   RS = Re-stock date");
 }
 
 
